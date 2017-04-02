@@ -1,0 +1,134 @@
+body 
+{
+    direction:rtl;
+     background-image: url('../images/background.png');
+
+     
+     background-repeat:repeat
+
+}
+#container{
+    width:700px;
+    margin: 0 auto; 
+
+
+
+}
+#nav1 ul {
+    list-style: none;
+    width: 600px; 
+    margin: 20px;
+}
+#nav1 ul li {
+display: inline-block;
+float: right;
+}
+
+nav li a {
+display: block;
+background-color: #2f2f33;
+color: white;
+text-decoration: none;
+text-align: center;
+width: 120px;
+height: 30px;
+Padding-top: 10px;
+border-radius: 15px 15px 15px 15px;
+}
+
+
+
+
+#nav1 ul li a:hover {
+background-color: #9C2081;
+font-size: 20px;
+text-align: center;
+}
+#nav1 ul li :active {
+background-color: red;
+}
+
+
+#nav1 ul li ul {
+display: none;
+position: absolute;
+}
+
+#nav1 ul li:hover ul {
+display: block;
+width: 120px;
+}
+
+
+.squre {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 80px;
+}
+h1{
+    color: #9C2081;
+    font-size: 40pt;
+    display: block;
+
+
+}
+h2{
+    font-size: 24pt;
+    margin: 20px;
+    color:  #9C2081;
+  
+}
+p{
+    margin: 10px;
+    font-size: 15pt;
+    text-align: center;
+    padding: 5px
+}
+
+.icon{
+        width: 60px;
+    height: 60px;
+float: right;
+    margin-left: 10px
+
+}
+.icon{
+    margin: 5px;
+    transition: all .2s ease-in-out;
+}
+.icon:hover{
+    transform: scale(1.5);
+}
+ul{
+    list-style-type:none;
+    
+}
+.squre:last-child{
+padding:30px;
+height: 245px;
+}
+.squre:first-child{
+    height:245px;
+}
+li{
+    margin: 5px;
+}
+.txt{
+        line-height: 1.5;
+}
+#work{
+
+}
+.active{
+background-color: #9C2081;
+font-size: 20px;
+text-align: center;
+}
+
+.icon:hover {
+	-webkit-animation: rotate-center 0.6s ease-in-out both;
+	-moz-animation: rotate-center 0.6s ease-in-out both;
+	animation: rotate-center 0.6s ease-in-out both;
+}
